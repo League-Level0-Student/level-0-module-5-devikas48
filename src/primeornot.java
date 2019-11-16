@@ -6,12 +6,13 @@ public static void main(String[] args) {
 	
 	int num = Integer.parseInt(question);
 	
-	for (int i = 0; i < args.length; i++) {
-		if(num % 0 == 0) {
-			
+	for (int i = 2; i < num; i++) {
+		if(num % i == 0) {
+			JOptionPane.showMessageDialog(null, "Not prime.");
+			System.exit(0);
 		}
 	}
-	
+	JOptionPane.showMessageDialog(null, "It's prime");
 	
 	
 	
