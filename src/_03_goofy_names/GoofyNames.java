@@ -21,7 +21,7 @@ System.out.println(question.toUpperCase());
 
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
-for (int i = 0; i < args.length; i++) {
+for (int i = 0; i < question.length(); i++) {
 	
 	
 String character = question.charAt(i) +"";
