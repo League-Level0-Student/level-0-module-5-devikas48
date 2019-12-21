@@ -33,9 +33,32 @@ System.out.println("fkgnldrngrjktnksrjnyk");
 			System.out.println("odd " + f);
 		}
 	}
-	
-	
-	
+System.out.println("fkgnldrngrjktnksrjnyk");
+
+for (int b = 0; b < 78; b+=7) {
+System.out.println(b);
+}
+
+
+
+
+for (int e = 2004; e < 2020; e++) {
+	int age = e-2004;
+	System.out.println("I was " + age + " years old in " + e );
+}
+
+for (int c = 0; c < 3; c++) {
+	for (int g = 0; g < 3; g++) {
+		System.out.println(c + "" + g);
+	}
+}
+
+for (int i = 1; i < 10; i++) {
+for (int w = 0; w < 3; w++) {
+System.out.print((w + i) + " ");
+}
+System.out.println();
+}
 	
 	
 	
