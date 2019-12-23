@@ -53,21 +53,34 @@ for (int c = 0; c < 3; c++) {
 	}
 }
 
-for (int i = 1; i < 10; i++) {
+
+
+
+
+
+for (int i = 1; i < 10; i=i+3) {
 for (int w = 0; w < 3; w++) {
 System.out.print((w + i) + " ");
 }
 System.out.println();
 }
 	
+	System.out.println("");
 	
 	
+for (int i = 1; i < 100; i=i+10) {
+	for (int j = 0; j < 10; j++) {
+System.out.print((j + i) + " ");
+	}
+System.out.println();
+}	
 	
 	
+	System.out.println(" ");
 	
 	
-	
-	
+	for (int i = 1; i < 21; i=i+1) {
+		for (int r = 0 ; j < ; j++) {
 	
 	
 	
