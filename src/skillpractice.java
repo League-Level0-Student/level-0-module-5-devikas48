@@ -1,3 +1,5 @@
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class skillpractice {
@@ -19,7 +21,8 @@ String question = JOptionPane.showInputDialog("How many dimes do you have?");
 
 
 // Tell them how many cents they have (hint multiply by 10)
-
+int num = Integer.parseInt(question);
+JOptionPane.showMessageDialog(null, ("You have" + num*10 + "cents"));
 
 
 
@@ -29,7 +32,8 @@ String question2 = JOptionPane.showInputDialog("How tall are you? (in inches)");
 
 
 // If they are shorter than 36 inches, tell them to eat their Wheaties
-if(question2.equals(<36)) {
+int num2 = Integer.parseInt(question2);
+if(num2<36) {
 	JOptionPane.showMessageDialog(null, "Eat Wheaties");
 } 
 
@@ -39,7 +43,9 @@ if(question2.equals(<36)) {
 }
 
 void skill2() { // Write a loop to print every third number between 1 and 30 to the console 
-
+for (int i = 1; i < 30; i+=3) {
+	System.out.println(i);
+}
 
 
 
@@ -49,15 +55,18 @@ void skill2() { // Write a loop to print every third number between 1 and 30 to 
 }
 
 void skill3() { // Get a random number that is less than 20 and print it to the console 
-
-
+Random random = new Random();
+int num = random.nextInt(20 + 1);
+System.out.println(num);
 
 // Get another random number that is less than 10 and print it to the console 
 
+int number = random.nextInt(10 + 1);
+System.out.println(number);
 
 
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
-
+JOptionPane.showMessageDialog(null, num-number);
 
 
 }
@@ -80,14 +89,21 @@ else {
 
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
 int car = 2;
- 
+if (car == 0) {
+	JOptionPane.showMessageDialog(null, "I bet you use public transportation");
+}
 
 // If there is 1 car, use a pop-up to display the make/model of the car 
-
+if (car == 1) {
+	JOptionPane.showMessageDialog(null, "Toyota");
+}
 
 
 // If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them. 
 
+if (car = >1) {
+	JOptionPane.showMessageDialog(null, "The cars have 4 wheels");
+}
 
 
 }

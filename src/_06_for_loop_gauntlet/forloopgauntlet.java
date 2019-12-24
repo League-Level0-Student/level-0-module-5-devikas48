@@ -79,22 +79,17 @@ System.out.println();
 	System.out.println(" ");
 	
 	
-	for (int i = 1; i < 21; i=i+1) {
-		for (int r = 0 ; j < ; j++) {
+	for (int i = 1; i <= 6; i++) {
+System.out.println();
+		for (int r = 0 ; r < i; r++) {
+System.out.print("*");
+		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		}
+	}
+	}
 }
-}
+	
+
+
+
